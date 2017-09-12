@@ -2,7 +2,7 @@
 def valid_move?(board, index)
   index = index.to_i
       index = board[index - 1]
-  if position_taken?(board, index)
+  if position_taken?(board, index) == true
     returns = false
   else
     returns = true
