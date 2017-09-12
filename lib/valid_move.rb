@@ -13,5 +13,5 @@ end
 def position_taken?(board, index)
   index = index.to_i
 ! (board[index] ==  " " || board[index] == "" || board[index] == nil)
-returns = false
+returns = true
 end
